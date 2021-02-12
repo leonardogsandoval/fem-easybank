@@ -438,7 +438,7 @@ button:hover::before, .button:hover::before {
     content: "";
     position: absolute;
     height: 100%;
-    background-image: url("/images/bg-intro-desktop.svg");
+    background-image: url("https://raquelmorales.com/wp-content/uploads/2021/02/imageweblg-1.jpg");
     background-repeat: no-repeat;
     background-position: center bottom;
     width: 150%;
