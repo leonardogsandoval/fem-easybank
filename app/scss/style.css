@@ -390,7 +390,7 @@ button:hover::before, .button:hover::before {
 }
 
 .hero {
-  background-color: #fafafa;
+  background-color: white;
 }
 
 @media (min-width: 64em) {
