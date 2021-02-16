@@ -1,6 +1,7 @@
 <?php 
 
 $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+echo($lang);
 switch ($lang){
     case "es":
         include("home_es.html");
@@ -13,7 +14,7 @@ switch ($lang){
         break;
     default:
         // Incluye EN en cualquier idioma que no sean los anteriores:
-        include("index_en.php");
+        include("home.html");
         break;
 }
 
