@@ -4,7 +4,7 @@ $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 echo($lang);
 switch ($lang){
     case "es":
-        echo("probando el español")
+        echo("probando el español");
         include("home.html");
         break;
     case "it":
