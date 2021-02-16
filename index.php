@@ -1,10 +1,9 @@
 <?php 
 
 $lang = Locale::acceptFromHttp($_SERVER['HTTP_ACCEPT_LANGUAGE']);
-echo($lang)
+echo($lang);
 switch ($lang){
     case "es":
-      
         include("main.html");
         break;
     
