@@ -1,7 +1,7 @@
 <?php 
-
+// obtiene el contenido de HTTP accept language
 $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-echo $lang;
+
 switch ($lang){
     case "es":
         include("main.html");
