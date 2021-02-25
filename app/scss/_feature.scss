@@ -5,6 +5,7 @@
 
   @include breakpoint-up(medium){
     text-align: center;
+   // background-image: linear-gradient(to top, $limeGreen, $white);
   }
 
   &__intro {
