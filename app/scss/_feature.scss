@@ -1,19 +1,26 @@
 .feature {
-  background-color: $lightGrayishBlue;
+  //background-color: $limeGreen;
+  background-image: linear-gradient(to top, $limeGreen, $white);
   text-align: center;
 
   @include breakpoint-up(medium){
-    text-align: left;
+    text-align: center;
   }
 
   &__intro {
     margin-bottom: 3.75rem;
 
     @include breakpoint-up(large){
-      width: 60%;
+      width: 80%;
+      text-align:center;
+      margin:auto;
     }
   }
-
+  &__eyebrow{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 6px;
+  }
   &__grid {
 
     @include breakpoint-up(medium){
@@ -22,8 +29,31 @@
     }
   }
 
+  &__iconDiv {
+    border-radius: 50%;
+    background-color:$highGreen;
+    //background-image: linear-gradient(to right, $limeGreen, $limeGreen);
+    height: 70px;
+    width: 70px;
+    margin:auto;
+    display: flex;
+    flex-direction:column;
+
+    align-items:center;
+    justify-content:center;
+    >.material-icons {
+      color:$white;
+      font-size:40px;
+    }
+    
+  }
+
   &__item {
+   
+    
     padding: 0.9375rem;
+    margin:4px;
+    
 
     @include breakpoint-up(medium){
       flex: 0 0 50%;
@@ -43,8 +73,8 @@
   }
 
   &__title {
-    font-size: 1.25rem;
-    font-weight: 300;
+    font-size: 1.45rem;
+    font-weight: 700;
     line-height: 1.15;
     color: $darkBlue;
     margin-bottom: 1rem;
@@ -58,5 +88,7 @@
   &__description {
     font-size: 0.875rem;
     line-height: 1.5;
+    color:$darkBlue;
+
   }
 }
