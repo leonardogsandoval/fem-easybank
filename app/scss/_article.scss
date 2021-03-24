@@ -1,11 +1,16 @@
 .articles {
-  background-color: $veryLightGray;
+  background-image: linear-gradient(to top,$limeGreen ,$limeGreen);
+  
 }
 
 .article {
+  
 
   &__content {
-
+    background-color: $veryLightGray;
+   >h2 {
+     text-align:center;
+   }
   }
 
   &__grid {
